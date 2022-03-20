@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter example</title>
+    <link rel="stylesheet" href="style.css"  
+</head>
+<body>
+      
+<!--
+What does it do? 
+Click on the increment button to see the count add up
+Click on save button to see previous entries mention the added values 
+Click on refresh to reset previous entries or start counting again with increment. -->
+  
+  
+<h2> This is a counter example </h2> 
+
+<p id="counter"> 0 </p>
+  
+<div class = "container" > 
+  
+  <button id="increment-btn" onclick="increment()"> INCREMENT </button>
+
+  <button id="save-btn" onclick="save()"> SAVE </button>
+
+</div>
+ 
+<p id="saved"> Previous entries: </p>
+  
+<div class = "container" >
+
+  <button id="refresh-btn" onclick="refresh()"> REFRESH previous entries </button>
+
+</div> 
+<script src="counter.js"> </script> 
+</body>
+</html>
