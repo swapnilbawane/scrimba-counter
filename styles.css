@@ -1,5 +1,5 @@
 body {
-    background-image:"assets/train_counter.jpg"
+    background: url(assets/train_counter.jpg) no-repeat;
   } 
   
   h2 {
