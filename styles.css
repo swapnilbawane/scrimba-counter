@@ -1,6 +1,12 @@
 body {
-    background: url(assets/train_counter.jpg) no-repeat;
+  background: url(assets/train_counter.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+    
   } 
+
+  /* https://css-tricks.com/perfect-full-page-background-image/ */
   
   h2 {
     color: white;
